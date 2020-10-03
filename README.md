@@ -19,7 +19,7 @@
 使用 composer 安装：
 
 ```shell
-omposer require vvk/id-card	
+composer require vvk/id-card	
 ```
 
 ## 使用
