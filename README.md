@@ -88,7 +88,7 @@ echo $result.PHP_EOL;
 
 ```php
 include "vendor/autoload.php";
-use Vvk\IdCard\IdCard;
+use Vvk\IdCard\UpdateLocation;
 
 UpdateLocation::run();
 ```
