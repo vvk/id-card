@@ -28,7 +28,7 @@ omposer require vvk/id-card
 
 ```php
 include "vendor/autoload.php";
-use Vvk\Idcard\IdCard;
+use Vvk\IdCard\IdCard;
 
 $idCard = '110101192009309116';
 $location = IdCard::parse($idCard);//支持15位、18位身份证号
@@ -52,7 +52,7 @@ Array
 
 ```php
 include "vendor/autoload.php";
-use Vvk\Idcard\IdCard;
+use Vvk\IdCard\IdCard;
 
 //通过 IdCard::getLocation() 获取到的对应的区、县code
 //广东东莞市、广东中山市、海南儋州三个城市下面没有区、县，只在在对应的城市后面补助 00 组成6位字符串即可
@@ -72,7 +72,7 @@ echo $result.PHP_EOL;
 
 ```php
 include "vendor/autoload.php";
-use Vvk\Idcard\IdCard;
+use Vvk\IdCard\IdCard;
 
 $idCard = '320506720102256';
 $result = IdCard::getLongIdCard($idCard);
@@ -88,7 +88,7 @@ echo $result.PHP_EOL;
 
 ```php
 include "vendor/autoload.php";
-use Vvk\Idcard\IdCard;
+use Vvk\IdCard\IdCard;
 
 UpdateLocation::run();
 ```
