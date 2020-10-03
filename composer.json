@@ -1,0 +1,16 @@
+{
+    "name": "vvk/id-card",
+    "description": "一个用于身份证号归属地查询、身份证号生成、15位身份证号转18位身份证号的包",
+    "license": "MIT",
+    "keywords": ["vvk","身份证号","身份证归属地","身份证号生成","15位身份证号转18位"],
+    "authors": [
+        {
+            "name": "vvk",
+            "email": "sunwq@sviping.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^7.1"
+    }
+}
