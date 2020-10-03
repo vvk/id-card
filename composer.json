@@ -12,5 +12,8 @@
     "require": {
         "php": "^7.0",
         "guzzlehttp/guzzle": "^7.1"
+    },
+    "psr-4": {
+        "Vvk\\IdCard\\": "src"
     }
 }
