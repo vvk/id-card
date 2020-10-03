@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vvk\\IdCard\\": "src"
+            "Vvk\\IdCard\\": "src/"
         }
     }
 }
