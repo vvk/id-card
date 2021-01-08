@@ -158,7 +158,7 @@ class IdCard extends Base
         }
 
         $lastChar = self::getIdCardLastChar($idCard);
-        if (empty($lastChar) || $lastChar != substr($idCard, 17, 1)) {
+        if (empty($lastChar) || strtoupper($lastChar) != strtoupper(substr($idCard, 17, 1))) {
             return false;
         }
 
